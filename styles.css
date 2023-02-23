@@ -1,0 +1,96 @@
+/* @font-face {
+  font-family: myFirstFont;
+  src: url(Cursed.ttf);
+} */
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #10002b;
+}
+.container {
+  max-width: 575px;
+  max-height: 385px;
+  background: #4c1d95;
+  border-radius: 12px;
+  border: 3px solid white;
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  padding: 68px 82px;
+  gap: 100px;
+  box-shadow: 0px 0px 3px black;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.col-heading h1 {
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  text-align: center;
+
+  color: white;
+}
+.col-display {
+  width: 285px;
+  height: 120px;
+  background: #080001;
+  border-radius: 5px;
+  font-family: "Silkscreen", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 110px;
+  text-align: center;
+  color: #f94f6d;
+}
+.col-points {
+  margin-top: 25px;
+  display: flex;
+  gap: 10px;
+}
+.add {
+  width: 75px;
+  height: 45px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-family: "Silkscreen", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: white;
+  line-height: 35px;
+  background: transparent;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-y: scroll;
+    padding:20px 0px;
+    height:auto;
+  }
+  .container {
+    margin: auto auto;
+    padding-block: 30px;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 100%;
+  }
+}
