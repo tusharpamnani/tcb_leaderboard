@@ -13,7 +13,7 @@ function addOneHome() {
   scoreHomeEl.textContent = homeCount;
 }
 function addTwoHome() {
-  homeCount -= 20;
+  homeCount -= 25;
   scoreHomeEl.textContent = homeCount;
 }
 function addThreeHome() {
@@ -27,7 +27,7 @@ function addOneGuest() {
   scoreGuestEl.textContent = guestCount;
 }
 function addTwoGuest() {
-  guestCount -= 20;
+  guestCount -= 25;
   scoreGuestEl.textContent = guestCount;
 }
 function addThreeGuest() {

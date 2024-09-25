@@ -14,12 +14,12 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: #10002b;
+  background: #ffffff;
 }
 .container {
-  max-width: 575px;
+  max-width: 675px;
   max-height: 385px;
-  background: #4c1d95;
+  background: #3341df;
   border-radius: 12px;
   border: 3px solid white;
   display: flex;
